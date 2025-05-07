@@ -11,6 +11,8 @@ architecture:
             global_cycle_seconds: 5e-09
             datawidth: 16
             fifo_depth: 2
+        area_scale: 1.0
+        energy_scale: 1.0
       - name: simple_compound.PE[0..4].buffer
         class: smartbuffer_RF
         attributes:
@@ -24,6 +26,8 @@ architecture:
             n_rdwr_ports: 2
             n_banks: 1
             n_buffets: 1
+        area_scale: 1.0
+        energy_scale: 1.0
       - name: simple_compound.GLB
         class: smartbuffer_SRAM
         attributes:
@@ -36,3 +40,5 @@ architecture:
             global_cycle_seconds: 5e-09
             n_rdwr_ports: 2
             n_buffets: 1
+        area_scale: 1.0
+        energy_scale: 1.0

@@ -1,0 +1,320 @@
+2025-04-16 01:21:21 INFO            _                _                      
+2025-04-16 01:21:21 INFO           / \   ___ ___ ___| | ___ _ __ __ _ _   _ 
+2025-04-16 01:21:21 INFO          / _ \ / __/ __/ _ \ |/ _ \ '__/ _` | | | |
+2025-04-16 01:21:21 INFO         / ___ \ (_| (_|  __/ |  __/ | | (_| | |_| |
+2025-04-16 01:21:21 INFO        /_/   \_\___\___\___|_|\___|_|  \__, |\__, |
+2025-04-16 01:21:21 INFO                                        |___/ |___/ 
+2025-04-16 01:21:21 INFO        generating outputs according to the following specified output flags... 
+2025-04-16 01:21:21 INFO         Please use the -f flag to update the preference (default to all output files)
+2025-04-16 01:21:21 INFO        {'ERT': 1, 'ERT_summary': 1, 'ART': 1, 'ART_summary': 1, 'energy_estimation': 1, 'flattened_arch': 1}
+2025-04-16 01:21:21 INFO        Located config file at /home/workspace/.config/accelergy/accelergy_config.yaml.
+2025-04-16 01:21:21 INFO        config file located:
+2025-04-16 01:21:21 INFO        /home/workspace/.config/accelergy/accelergy_config.yaml
+2025-04-16 01:21:22 INFO        Parsing file arch/eyeriss_like-int16.yaml for architecture info
+2025-04-16 01:21:22 WARNING     File arch/eyeriss_like-int16.yaml is outdated. File version is 0.3, while the latest version is 0.4. 
+2025-04-16 01:21:22 WARNING      Please update the file to the latest version.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	memory_depth = 12
+2025-04-16 01:21:22 WARNING     	memory_width = 16
+2025-04-16 01:21:22 WARNING     	word_bits = 16
+2025-04-16 01:21:22 WARNING     	meshX = 14
+2025-04-16 01:21:22 WARNING     	read_bandwidth = 2
+2025-04-16 01:21:22 WARNING     	write_bandwidth = 2
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	memory_depth = 192
+2025-04-16 01:21:22 WARNING     	memory_width = 16
+2025-04-16 01:21:22 WARNING     	word_bits = 16
+2025-04-16 01:21:22 WARNING     	meshX = 14
+2025-04-16 01:21:22 WARNING     	read_bandwidth = 2
+2025-04-16 01:21:22 WARNING     	write_bandwidth = 2
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	memory_depth = 16
+2025-04-16 01:21:22 WARNING     	memory_width = 16
+2025-04-16 01:21:22 WARNING     	update_fifo_depth = 2
+2025-04-16 01:21:22 WARNING     	word_bits = 16
+2025-04-16 01:21:22 WARNING     	meshX = 14
+2025-04-16 01:21:22 WARNING     	read_bandwidth = 2
+2025-04-16 01:21:22 WARNING     	write_bandwidth = 2
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	width = 16
+2025-04-16 01:21:22 WARNING     	meshX = 14
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	memory_depth = 16384
+2025-04-16 01:21:22 WARNING     	memory_width = 64
+2025-04-16 01:21:22 WARNING     	n_banks = 32
+2025-04-16 01:21:22 WARNING     	word_bits = 16
+2025-04-16 01:21:22 WARNING     	read_bandwidth = 16
+2025-04-16 01:21:22 WARNING     	write_bandwidth = 16
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "45nm" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     	depth = 16
+2025-04-16 01:21:22 WARNING     	width = 16
+2025-04-16 01:21:22 WARNING     	word_bits = 16
+2025-04-16 01:21:22 WARNING     	meshX = 14
+2025-04-16 01:21:22 WARNING     	global_cycle_seconds = 1e-09
+2025-04-16 01:21:22 WARNING     Failed to evaluate: 45nm
+2025-04-16 01:21:22 WARNING     Location: arch attribute "technology"
+2025-04-16 01:21:22 WARNING     Problem encountered: SyntaxError: invalid decimal literal (<string>, line 1)
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	nm = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: 45nm
+2025-04-16 01:21:22 WARNING         Expression as valid string: "45nm"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 WARNING     Evaluation of "LPDDR4" failed.
+2025-04-16 01:21:22 WARNING     Failed to evaluate: LPDDR4
+2025-04-16 01:21:22 WARNING     Location: arch attribute "type"
+2025-04-16 01:21:22 WARNING     Problem encountered: NameError: Name 'LPDDR4' is not defined.
+2025-04-16 01:21:22 WARNING     Available bindings: 
+2025-04-16 01:21:22 WARNING     Failed to evaluate: LPDDR4
+2025-04-16 01:21:22 WARNING     Location: arch attribute "type"
+2025-04-16 01:21:22 WARNING     Problem encountered: NameError: Name 'LPDDR4' is not defined.
+2025-04-16 01:21:22 WARNING     Please ensure that the expression used is a valid Python expression.
+2025-04-16 01:21:22 WARNING     The following may have been used in the expression:
+2025-04-16 01:21:22 WARNING     	LPDDR4 = UNDEFINED
+2025-04-16 01:21:22 WARNING     Strings are allowed here. If you meant to enter a string, please wrap the
+2025-04-16 01:21:22 WARNING     expression in single or double quotes:
+2025-04-16 01:21:22 WARNING         Found expression: LPDDR4
+2025-04-16 01:21:22 WARNING         Expression as valid string: "LPDDR4"
+2025-04-16 01:21:22 WARNING     Expression will be treated as a string. This will be deprecated in version
+2025-04-16 01:21:22 WARNING     0.4. Please wrap quotes around the expression to specify a string.
+2025-04-16 01:21:22 INFO        Parsing file arch/components/intmac.yaml for compound_components info
+2025-04-16 01:21:22 INFO        Parsing file arch/components/regfile.yaml for compound_components info
+2025-04-16 01:21:22 INFO        Parsing file arch/components/smartbuffer_RF.yaml for compound_components info
+2025-04-16 01:21:23 INFO        Parsing file arch/components/smartbuffer_SRAM.yaml for compound_components info
+
+
+
+
+
+============================================================
+Accelergy has encountered an error and crashed. Error below: 
+============================================================
+|| Traceback (most recent call last):
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/accelergy_console.py", line 339, in main
+||     run()
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/accelergy_console.py", line 142, in run
+||     arch_obj = arch_dict_2_obj(
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/arch_dict_2_obj.py", line 6, in arch_dict_2_obj
+||     fully_defined_arch_dict = fully_define_arch_dict(arch_dict, cc_classes, pc_classes)
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/arch_dict_2_obj.py", line 45, in fully_define_arch_dict
+||     attrs_to_be_applied = class_obj.get_default_attr_to_apply(cinfo["attributes"])
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/component_class.py", line 59, in get_default_attr_to_apply
+||     raise AttributeError(
+|| AttributeError: Attribute width for compound class smartbuffer_RF must be specified. Available attributes are: ['memory_depth', 'memory_width', 'word_bits', 'meshX', 'read_bandwidth', 'write_bandwidth', 'global_cycle_seconds', 'technology']
+============================================================
+Stack with local variables (most recent call last):
+============================================================
+Frame 3
+============================================================
+| /usr/local/lib/python3.10/dist-packages/accelergy/accelergy_console.py:142
+| AttributeError: Attribute width for compound class smartbuffer_RF must be specified. Available attributes are: ['memory_depth', 'memory_width', 'word_bits', 'meshX', 'read_bandwidth', 'write_bandwidth', 'global_cycle_seconds', 'technology']
+| Local var system_state =                 <accelergy.system_state.SystemState object at 0x7f6bff0bbc10>
+| Local var raw_dicts =                    <accelergy.raw_inputs_2_dicts.RawInputs2Dicts object at 0x7f6bfe16c460>
+| Local var cc_name =                      smartbuffer_SRAM
+| Local var cc_info =                      {'name': 'smartbuffer_SRAM', 'attributes': {'technology': 'must_specify', 'width': 'must_specify', 'depth': 'must_specify', 'memory_width': 'max(32, width)', 'memory_depth': 'max(64, depth)', 'widthscale': 'width / memory_width', 'depthscale': 'depth / memory_depth', 'real_depth': 'depth', 'area_scale': 'widthscale * depthscale', 'dynamic_energy_scale': 'widthscale * (depthscale ** (1.56 / 2))', 'static_energy_scale': 'area_scale', 'n_rdwr_ports': 1, 'global_cycle_seconds': 'must_specify'}, 'subcomponents': [{'name': 'storage', 'class': 'SRAM', 'area_scale': 'area_scale', 'attributes': {'width': 'memory_width', 'depth': 'memory_depth', 'n_rdwr_ports': 'n_rdwr_ports', 'global_cycle_seconds': 'global_cycle_seconds'}, 'energy_scale': 1.0}, {'name': 'address_generators[0..1]', 'class': 'intadder', 'attributes': {'n_bits': 'max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1', 'precision': 'max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1', 'global_cycle_seconds': 'global_cycle_seconds'}, 'area_scale': 1.0, 'energy_scale': 1.0}], 'actions': [{'name': 'write', 'subcomponents': [{'name': 'storage', 'actions': [{'name': 'write', 'energy_scale': 'dynamic_energy_scale'}]}, {'name': 'address_generators[0]', 'actions': [{'name': 'add', 'energy_scale': 1}]}]}, {'name': 'read', 'subcomponents': [{'name': 'storage', 'actions': [{'name': 'read', 'energy_scale': 'dynamic_energy_scale'}]}, {'name': 'address_generators[1]', 'actions': [{'name': 'add', 'energy_scale': 1}]}]}, {'name': 'leak', 'subcomponents': [{'name': 'storage', 'actions': [{'name': 'leak', 'energy_scale': 'static_energy_scale'}]}, {'name': 'address_generators[0..1]', 'actions': [{'name': 'leak', 'energy_scale': 1}]}]}, {'name': 'update', 'subcomponents': [{'name': 'storage', 'actions': [{'name': 'write', 'energy_scale': 'dynamic_energy_scale'}]}, {'name': 'address_generators[0]', 'actions': [{'name': 'add', 'energy_scale': 1}]}]}]}
+|          138:        for cc_name, cc_info in raw_dicts.get_cc_classses().items():
+|          139:            system_state.add_cc_class(ComponentClass(cc_info))
+|          140: 
+|          141:        # ----- Set Architecture Spec (all attributes defined)
+| ERROR >> 142:        arch_obj = arch_dict_2_obj(
+|          143:            raw_dicts.get_flatten_arch_spec_dict(),
+|          144:            system_state.cc_classes,
+|          145:            system_state.pc_classes,
+|          146:        )
+============================================================
+Frame 2
+============================================================
+| /usr/local/lib/python3.10/dist-packages/accelergy/arch_dict_2_obj.py:6
+| AttributeError: Attribute width for compound class smartbuffer_RF must be specified. Available attributes are: ['memory_depth', 'memory_width', 'word_bits', 'meshX', 'read_bandwidth', 'write_bandwidth', 'global_cycle_seconds', 'technology']
+| Local var arch_dict =                    {'version': '0.4', 'components': {'system.eyeriss.PE[0..167].ifmap_spad': {'name': 'system.eyeriss.PE[0..167].ifmap_spad', 'class': 'smartbuffer_RF', 'attributes': {'memory_depth': 12, 'memory_width': 16, 'word_bits': 16, 'meshX': 14, 'read_bandwidth': 2, 'write_bandwidth': 2, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}, 'system.eyeriss.PE[0..167].weights_spad': {'name': 'system.eyeriss.PE[0..167].weights_spad', 'class': 'smartbuffer_RF', 'attributes': {'memory_depth': 192, 'memory_width': 16, 'word_bits': 16, 'meshX': 14, 'read_bandwidth': 2, 'write_bandwidth': 2, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}, 'system.eyeriss.PE[0..167].psum_spad': {'name': 'system.eyeriss.PE[0..167].psum_spad', 'class': 'smartbuffer_RF', 'attributes': {'memory_depth': 16, 'memory_width': 16, 'update_fifo_depth': 2, 'word_bits': 16, 'meshX': 14, 'read_bandwidth': 2, 'write_bandwidth': 2, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}, 'system.eyeriss.PE[0..167].mac': {'name': 'system.eyeriss.PE[0..167].mac', 'class': 'intmac', 'attributes': {'width': 16, 'meshX': 14, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}, 'system.eyeriss.shared_glb': {'name': 'system.eyeriss.shared_glb', 'class': 'smartbuffer_SRAM', 'attributes': {'memory_depth': 16384, 'memory_width': 64, 'n_banks': 32, 'word_bits': 16, 'read_bandwidth': 16, 'write_bandwidth': 16, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}, 'system.eyeriss.DummyBuffer[0..13]': {'name': 'system.eyeriss.DummyBuffer[0..13]', 'class': 'regfile', 'attributes': {'depth': 16, 'width': 16, 'word_bits': 16, 'meshX': 14, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}, 'system.DRAM': {'name': 'system.DRAM', 'class': 'DRAM', 'attributes': {'type': 'LPDDR4', 'width': 64, 'word_bits': 16, 'global_cycle_seconds': 1e-09}}}}
+| Local var cc_classes =                   {'intmac': <accelergy.component_class.ComponentClass object at 0x7f6bfe2e7fd0>, 'fpmac': <accelergy.component_class.ComponentClass object at 0x7f6bfe2e7f40>, 'regfile': <accelergy.component_class.ComponentClass object at 0x7f6bfe16f490>, 'smartbuffer_RF': <accelergy.component_class.ComponentClass object at 0x7f6bfe16f700>, 'smartbuffer_SRAM': <accelergy.component_class.ComponentClass object at 0x7f6bfe16f910>}
+| Local var pc_classes =                   {}
+|          2: from accelergy.component_class import ComponentClass
+|          3: 
+|          4: 
+|          5: def arch_dict_2_obj(arch_dict, cc_classes, pc_classes):
+| ERROR >> 6:     fully_defined_arch_dict = fully_define_arch_dict(arch_dict, cc_classes, pc_classes)
+|          7:     return Architecture(fully_defined_arch_dict)
+|          8: 
+|          9: 
+|          10: def fully_define_arch_dict(arch_dict, cc_classes, pc_classes):
+============================================================
+Frame 1
+============================================================
+| /usr/local/lib/python3.10/dist-packages/accelergy/arch_dict_2_obj.py:45
+| AttributeError: Attribute width for compound class smartbuffer_RF must be specified. Available attributes are: ['memory_depth', 'memory_width', 'word_bits', 'meshX', 'read_bandwidth', 'write_bandwidth', 'global_cycle_seconds', 'technology']
+| Local var cinfo =                        {'name': 'system.eyeriss.PE[0..167].ifmap_spad', 'class': 'smartbuffer_RF', 'attributes': {'memory_depth': 12, 'memory_width': 16, 'word_bits': 16, 'meshX': 14, 'read_bandwidth': 2, 'write_bandwidth': 2, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}}
+| Local var class_obj =                    <accelergy.component_class.ComponentClass object at 0x7f6bfe16f700>
+|          41:                }
+|          42:                action = {"name": a, "subcomponents": [subcomp_action]}
+|          43:                class_obj.add_action(action)
+|          44: 
+| ERROR >> 45:        attrs_to_be_applied = class_obj.get_default_attr_to_apply(cinfo["attributes"])
+|          46:        for attr_name, attr_val in attrs_to_be_applied.items():
+|          47:            cinfo["attributes"][attr_name] = attr_val
+|          48:        cinfo["attributes"] = parse_expressions_sequentially_replacing_bindings(
+|          49:            cinfo["attributes"],
+============================================================
+Frame 0
+============================================================
+| /usr/local/lib/python3.10/dist-packages/accelergy/component_class.py:59
+| AttributeError: Attribute width for compound class smartbuffer_RF must be specified. Available attributes are: ['memory_depth', 'memory_width', 'word_bits', 'meshX', 'read_bandwidth', 'write_bandwidth', 'global_cycle_seconds', 'technology']
+| Local var self =                         <accelergy.component_class.ComponentClass object at 0x7f6bfe16f700>
+| Local var obj_attr_name_list =           {'memory_depth': 12, 'memory_width': 16, 'word_bits': 16, 'meshX': 14, 'read_bandwidth': 2, 'write_bandwidth': 2, 'global_cycle_seconds': 1e-09, 'technology': '45nm'}
+| Local var attr_name =                    width
+| Local var attr_val =                     must_specify
+| Local var found_val =                    None
+|          55: for attr_name, attr_val in self._get_default_attrs().items():
+|          56:     # print(f'Checking for {attr_name=} {attr_val=} in {obj_attr_name_list}')
+|          57:     found_val = obj_attr_name_list.get(attr_name, None)
+|          58:     if attr_val == "must_specify" and found_val is None:
+| ERROR >> 59:         raise AttributeError(
+|          60:             f"Attribute {attr_name} for compound class "
+|          61:             f"{self.get_name()} must be specified. Available "
+|          62:             f"attributes are: {list(obj_attr_name_list.keys())}"
+|          63:         )
+============================================================
+|| Traceback (most recent call last):
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/accelergy_console.py", line 339, in main
+||     run()
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/accelergy_console.py", line 142, in run
+||     arch_obj = arch_dict_2_obj(
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/arch_dict_2_obj.py", line 6, in arch_dict_2_obj
+||     fully_defined_arch_dict = fully_define_arch_dict(arch_dict, cc_classes, pc_classes)
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/arch_dict_2_obj.py", line 45, in fully_define_arch_dict
+||     attrs_to_be_applied = class_obj.get_default_attr_to_apply(cinfo["attributes"])
+||   File "/usr/local/lib/python3.10/dist-packages/accelergy/component_class.py", line 59, in get_default_attr_to_apply
+||     raise AttributeError(
+|| AttributeError: Attribute width for compound class smartbuffer_RF must be specified. Available attributes are: ['memory_depth', 'memory_width', 'word_bits', 'meshX', 'read_bandwidth', 'write_bandwidth', 'global_cycle_seconds', 'technology']
+============================================================
+Accelergy has encountered an error and crashed. Error above. 
+============================================================
+

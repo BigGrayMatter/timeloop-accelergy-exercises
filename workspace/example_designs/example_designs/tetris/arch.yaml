@@ -1,0 +1,188 @@
+architecture:
+  # ============================================================
+  # Architecture Description
+  # ============================================================
+  version: 0.4
+  nodes: # Top-level is hierarchical
+  - !Container # Top-level system
+    name: system
+  
+  - !Component # DRAM main memory
+    name: DRAM
+    class: DRAM
+    attributes:
+      type: "HBM2"
+      width: 64
+      datawidth: 8
+    # constraints:
+        # dataspace:
+        #       no_coalesce: [Outputs]
+
+  - !Container # Tetris accelerator
+    name: tetris
+    attributes:
+      technology: "45nm"
+
+  - !Component # Global buffer for inputs & outputs
+    name: shared_glb
+    class: smartbuffer_SRAM
+    attributes:
+      depth: 17024
+      width: 64
+      n_banks: 32
+      datawidth: 8
+      read_bandwidth: 16
+      write_bandwidth: 16
+    constraints:
+      dataspace: {keep: [Inputs], bypass: [Weights, Outputs]}
+
+  # - !Container # in memory accumulation
+  #   name: in_mem_acc
+
+  # - !Component
+  #   name: latch
+  #   class: smartbuffer_RF
+  #   attributes:
+  #       depth: 1
+  #       width: 16
+  #       datawidth: 8
+  #       read_bandwidth: 1
+  #       write_bandwidth: 1
+  #   constraints:
+  #       temporal:
+  #           rmw_first_update: [Outputs]
+  #           permutation: [N, C, P, Q, R, S, M] 
+  #           factors: [N=1, C=1, R=1, S=1, P=1, Q=1, M=1]
+  #           no_iteration_over_dataspaces: [Weights, Inputs]
+  #       dataspace: {keep: [Outputs], bypass: [Weights, Inputs]}
+
+  # - !Component
+  #   name: adder
+  #   class: in_mem_acc_compute
+  #   attributes:
+  #     technology: "45nm"
+  #     adder_width: 16
+  
+
+
+  # - !Component
+  #   name: adder
+  #   class: intmac
+  #   attributes:
+  #       technology: "45nm"
+  #       adder_width: 8
+  #       multiplier_width: 8
+  
+  # - !Component
+  #   name: adder
+  #   class: intadder
+  #   attributes:
+  #       n_bits: 16
+  #       precision: 1
+  #       width: 16
+
+
+    
+      
+
+  - !Container # Each column of PEs produces a different psum row
+    name: PE_column
+    spatial: {meshX: 14}
+    constraints:
+      spatial:
+        permutation: [N, C, P, R, S, Q, M]
+        factors: [N=1, C=1, P=1, R=1, S=1]
+        split: 999
+
+  - !Container # Each PE in the column receives a different filter row
+    name: PE
+    spatial: {meshY: 14}
+    constraints:
+      spatial:
+        split: 0
+        permutation: [N, P, Q, R, S, C, M]
+        factors: [N=1, P=1, Q=1, R=1]
+
+  - !Parallel # Input/Output/Weight scratchpads in parallel
+    nodes:
+    - !Component # Input scratchpad
+      name: ifmap_spad
+      class: smartbuffer_RF
+      attributes:
+        depth: 12
+        width: 16
+        datawidth: 8
+        read_bandwidth: 2
+        write_bandwidth: 2
+      constraints:
+        dataspace: {keep: [Inputs]}
+        temporal:
+          permutation: [N, M, C, P, Q, R, S]
+          factors: [N=1, M=1, C=1, P=1, Q=1, R=1, S=1]
+
+    - !Component # Weight scratchpad
+      name: weights_spad
+      class: smartbuffer_RF
+      attributes:
+        depth: 192
+        width: 16
+        datawidth: 8
+        read_bandwidth: 2
+        write_bandwidth: 2
+      constraints:
+        dataspace: {keep: [Weights]}
+        temporal:
+          permutation: [N, M, P, Q, S, C, R]
+          factors: [N=1, M=1, P=1, Q=1, S=1]
+
+    - !Component # Output scratchpad
+      name: psum_spad
+      class: smartbuffer_RF
+      attributes:
+        depth: 16
+        width: 16
+        update_fifo_depth: 2
+        datawidth: 16
+        read_bandwidth: 2
+        write_bandwidth: 2
+      constraints:
+        dataspace: {keep: [Outputs]}
+        temporal:
+          permutation: [N, C, P, Q, R, S, M] 
+          factors: [N=1, C=1, R=1, S=1, P=1, Q=1]
+
+  - !Component # MAC unit
+    name: mac
+    class: intmac
+    attributes:
+      multiplier_width: 8
+      adder_width: 16
+
+
+
+
+
+# compound_components:
+#   version: 0.4         # REQUIRED version number
+#   classes:
+#   - name: in_mem_acc
+#     attributes:
+#       technology: "must_specify"
+#       adder_width: "must_specify"
+#       # latch_width: "must_specify"
+
+#     subcomponents:
+#     - name: intadder
+#       class: aladdin_adder
+#       attributes: {width: adder_width}
+    
+
+#     actions:
+#     - name: compute
+#       subcomponents:
+#       - name: intadder
+#         actions: [{name: read}]
+#     - name: leak
+#       subcomponents:
+#       - name: intadder
+#         actions: [{name: leak}]

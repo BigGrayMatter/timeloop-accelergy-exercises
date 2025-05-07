@@ -1,0 +1,214 @@
+2025-04-30 19:24:47 INFO            _                _                      
+2025-04-30 19:24:47 INFO           / \   ___ ___ ___| | ___ _ __ __ _ _   _ 
+2025-04-30 19:24:47 INFO          / _ \ / __/ __/ _ \ |/ _ \ '__/ _` | | | |
+2025-04-30 19:24:47 INFO         / ___ \ (_| (_|  __/ |  __/ | | (_| | |_| |
+2025-04-30 19:24:47 INFO        /_/   \_\___\___\___|_|\___|_|  \__, |\__, |
+2025-04-30 19:24:47 INFO                                        |___/ |___/ 
+2025-04-30 19:24:47 INFO        generating outputs according to the following specified output flags... 
+2025-04-30 19:24:47 INFO         Please use the -f flag to update the preference (default to all output files)
+2025-04-30 19:24:47 INFO        {'ERT': 1, 'ERT_summary': 1, 'ART': 1, 'ART_summary': 1, 'energy_estimation': 1, 'flattened_arch': 1}
+2025-04-30 19:24:47 INFO        Located config file at /home/workspace/.config/accelergy/accelergy_config.yaml.
+2025-04-30 19:24:47 INFO        config file located:
+2025-04-30 19:24:47 INFO        /home/workspace/.config/accelergy/accelergy_config.yaml
+2025-04-30 19:24:47 INFO        YAML Setting environment variable TIMELOOP_HIDE_INCONSEQUENTIAL_STATS to 1
+2025-04-30 19:24:47 INFO        Parsing file /home/workspace/example_designs/example_designs/tetris/outputs/default_problem/parsed-processed-input.yaml for architecture info
+2025-04-30 19:24:47 INFO        Parsing file /home/workspace/example_designs/example_designs/tetris/outputs/default_problem/parsed-processed-input.yaml for compound_components info
+2025-04-30 19:24:48 INFO        YAML Setting environment variable TIMELOOP_HIDE_INCONSEQUENTIAL_STATS to 1
+2025-04-30 19:24:48 INFO        Adding required action "leak" to class DRAM
+2025-04-30 19:24:48 INFO        Adding required action "update" to class DRAM
+2025-04-30 19:24:48 INFO        Adding required action "read" to class DRAM
+2025-04-30 19:24:48 INFO        Adding required action "write" to class DRAM
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"memory_width" as "max(32, width)" = 32.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"memory_depth" as "max(64, depth)" = 64.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"widthscale" as "width / memory_width" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"depthscale" as "depth / memory_depth" = 0.1875.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"real_depth" as "depth" = 12.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"area_scale" as "widthscale * depthscale" = 0.09375.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"dynamic_energy_scale" as "widthscale * (depthscale ** (1.56 / 2))" = 0.1354911710963393.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"static_energy_scale" as "area_scale" = 0.09375.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"memory_width" as "max(32, width)" = 32.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"memory_depth" as "max(64, depth)" = 192.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"widthscale" as "width / memory_width" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"depthscale" as "depth / memory_depth" = 1.0.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"real_depth" as "depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"area_scale" as "widthscale * depthscale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"dynamic_energy_scale" as "widthscale * (depthscale ** (1.56 / 2))" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"static_energy_scale" as "area_scale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"memory_width" as "max(32, width)" = 32.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"memory_depth" as "max(64, depth)" = 64.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"widthscale" as "width / memory_width" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"depthscale" as "depth / memory_depth" = 0.25.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"real_depth" as "depth" = 16.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"area_scale" as "widthscale * depthscale" = 0.125.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"dynamic_energy_scale" as "widthscale * (depthscale ** (1.56 / 2))" = 0.16957554093095897.
+2025-04-30 19:24:48 INFO        Calculated Architecture class smartbuffer_RF attributes"static_energy_scale" as "area_scale" = 0.125.
+2025-04-30 19:24:48 WARNING     Area scale in attributes is deprecated. Use it on the same level as the attributes, not a subkey.
+2025-04-30 19:24:48 WARNING     Area scale in attributes is deprecated. Use it on the same level as the attributes, not a subkey.
+2025-04-30 19:24:48 WARNING     Area scale in attributes is deprecated. Use it on the same level as the attributes, not a subkey.
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/accelergy-library-plugin/library.estimator.yaml
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/accelergy-table-based-plug-ins/table.estimator.yaml
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/accelergy-neurosim-plugin/neurosim.estimator.yaml
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/accelergy-aladdin-plug-in/aladdin.estimator.yaml
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/dummy_tables/dummy.estimator.yaml
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/accelergy-adc-plug-in/adc.estimator.yaml
+2025-04-30 19:24:48 INFO        Estimator plug-in identified by: /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti.estimator.yaml
+2025-04-30 19:24:48 INFO        Loading Python plug-in: /usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti_wrapper.py. Errors below are likely due to plug-in, not Accelergy.
+2025-04-30 19:24:48 INFO        Getting all estimators in module <module 'python_plug_in0' from '/usr/local/share/accelergy/estimation_plug_ins/accelergy-cacti-plug-in/cacti_wrapper.py'>
+2025-04-30 19:24:48 INFO        Added estimator CactiCache that estimates cache with actions idle, read, read_access, update, update_access, write, write_access, leak
+2025-04-30 19:24:48 INFO        Added estimator CactiDRAM that estimates ['DRAM', 'dram'] with actions idle, read, update, write, leak
+2025-04-30 19:24:48 INFO        Added estimator CactiSRAM that estimates ['SRAM', 'sram'] with actions idle, read, update, write, leak
+2025-04-30 19:24:48 INFO        Done loading Python plug-ins.
+2025-04-30 19:24:48 INFO        Found estimator plug-in: Library (<LibraryEstimator.LibraryEstimator object at 0x7f0b9c211210>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: DEPRECATED table-based-plug-ins. Use the Library plug-in instead. (<SetsOfTables.SetsOfTables object at 0x7f0b9c22f5e0>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: Neurosim Plug-In (<NeuroWrapper.NeuroWrapper object at 0x7f0b9c22f400>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: Aladdin_table (<AladdinTable.AladdinTable object at 0x7f0b9c336bc0>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: dummy (<DummyTable.DummyTable object at 0x7f0b9c3f6710>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: ADC Plug-In (<ADCEstimator.ADCEstimator object at 0x7f0b9c3f5db0>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: CactiCache (<accelergy.plug_in_interface.estimator_wrapper.EstimatorWrapper object at 0x7f0b9c3f79a0>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: CactiDRAM (<accelergy.plug_in_interface.estimator_wrapper.EstimatorWrapper object at 0x7f0b9c3f57b0>)
+2025-04-30 19:24:48 INFO        Found estimator plug-in: CactiSRAM (<accelergy.plug_in_interface.estimator_wrapper.EstimatorWrapper object at 0x7f0b9c3f5c00>)
+2025-04-30 19:24:48 INFO        Calculated storage."width" as "width" = 64.
+2025-04-30 19:24:48 INFO        Calculated storage."depth" as "depth" = 17024.
+2025-04-30 19:24:48 INFO        Calculated storage."n_rw_ports" as "n_rw_ports" = 1.
+2025-04-30 19:24:48 INFO        Calculated storage."technology" as "technology" = 45nm.
+2025-04-30 19:24:48 INFO        Calculated storage."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."n_bits" as "max(1, ceil(log2(depth))) if depth >= 1 else 1" = 15.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."precision" as "max(1, ceil(log2(depth))) if depth >= 1 else 1" = 15.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."width" as "max(1, ceil(log2(depth))) if depth >= 1 else 1" = 15.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage."width" as "memory_width" = 32.
+2025-04-30 19:24:48 INFO        Calculated storage."depth" as "memory_depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated storage."n_rdwr_ports" as "n_rdwr_ports" = 1.
+2025-04-30 19:24:48 INFO        Calculated storage."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage.area_scale as "area_scale" = 0.09375.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width*depth" = 2048.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated storage.storage[1..2048]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage.comparator[1..64]."n_bits" as "max(1, ceil(log2(depth)))" = 6.
+2025-04-30 19:24:48 INFO        Calculated storage.comparator[1..64]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."n_bits" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 4.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."precision" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 4.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."width" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 4.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated action write energy_scale as "dynamic_energy_scale" = 0.1354911710963393.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated action read energy_scale as "dynamic_energy_scale" = 0.1354911710963393.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated action leak energy_scale as "static_energy_scale" = 0.09375.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width*depth" = 2048.
+2025-04-30 19:24:48 INFO        Calculated system_top_level.ifmap_spad[1..196].leak.leak."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated system_top_level.ifmap_spad[1..196].leak.leak."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated action write energy_scale as "dynamic_energy_scale" = 0.1354911710963393.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated storage."width" as "memory_width" = 32.
+2025-04-30 19:24:48 INFO        Calculated storage."depth" as "memory_depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated storage."n_rdwr_ports" as "n_rdwr_ports" = 1.
+2025-04-30 19:24:48 INFO        Calculated storage."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage.area_scale as "area_scale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width*depth" = 6144.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated storage.storage[1..6144]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage.comparator[1..192]."n_bits" as "max(1, ceil(log2(depth)))" = 8.
+2025-04-30 19:24:48 INFO        Calculated storage.comparator[1..192]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."n_bits" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 8.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."precision" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 8.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."width" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 8.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated action write energy_scale as "dynamic_energy_scale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated action read energy_scale as "dynamic_energy_scale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated action leak energy_scale as "static_energy_scale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width*depth" = 6144.
+2025-04-30 19:24:48 INFO        Calculated system_top_level.weights_spad[1..196].leak.leak."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated system_top_level.weights_spad[1..196].leak.leak."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated action write energy_scale as "dynamic_energy_scale" = 0.5.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 192.
+2025-04-30 19:24:48 INFO        Calculated storage."width" as "memory_width" = 32.
+2025-04-30 19:24:48 INFO        Calculated storage."depth" as "memory_depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated storage."n_rdwr_ports" as "n_rdwr_ports" = 1.
+2025-04-30 19:24:48 INFO        Calculated storage."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage.area_scale as "area_scale" = 0.125.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width*depth" = 2048.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated storage.storage[1..2048]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated storage.comparator[1..64]."n_bits" as "max(1, ceil(log2(depth)))" = 6.
+2025-04-30 19:24:48 INFO        Calculated storage.comparator[1..64]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."n_bits" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 4.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."precision" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 4.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."width" as "max(1, ceil(log2(real_depth))) if real_depth >= 1 else 1" = 4.
+2025-04-30 19:24:48 INFO        Calculated address_generators[0..1]."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated action write energy_scale as "dynamic_energy_scale" = 0.16957554093095897.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated action read energy_scale as "dynamic_energy_scale" = 0.16957554093095897.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated action leak energy_scale as "static_energy_scale" = 0.125.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width*depth" = 2048.
+2025-04-30 19:24:48 INFO        Calculated system_top_level.psum_spad[1..196].leak.leak."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated system_top_level.psum_spad[1..196].leak.leak."global_cycle_seconds" as "global_cycle_seconds" = 1e-09.
+2025-04-30 19:24:48 INFO        Calculated action write energy_scale as "dynamic_energy_scale" = 0.16957554093095897.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "width" = 32.
+2025-04-30 19:24:48 INFO        Calculated list index expression as "depth" = 64.
+2025-04-30 19:24:48 INFO        Calculated intadder."width" as "adder_width" = 16.
+2025-04-30 19:24:48 INFO        Calculated intmultiplier."width_a" as "multiplier_width" = 8.
+2025-04-30 19:24:48 INFO        Calculated intmultiplier."width_b" as "multiplier_width" = 8.
+2025-04-30 19:24:48 INFO        
+2025-04-30 19:24:48 INFO        ENERGY ESTIMATION for DRAM(type=HMC, width=64, datawidth=8, has_power_gating=False, n_banks=2, cluster_size=1, reduction_supported=True, multiple_buffering=1, min_utilization=0, allow_overbooking=False, meshX=1, meshY=1, version=0.4, technology=SET ME, global_cycle_seconds=1e-09, action_latency_cycles=1, cycle_seconds=1e-09, n_instances=1).leak(global_cycle_seconds=1e-09, action_latency_cycles=1)
+2025-04-30 19:24:48 INFO        Plug-ins provided accuracy, but failed to estimate:
+2025-04-30 19:24:48 INFO        | CactiDRAM with accuracy 80% estimating value: AssertionError: DRAM type HMC is not supported. Must be one of ['LPDDR4', 'LPDDR', 'DDR3', 'GDDR5', 'HBM2'].
+2025-04-30 19:24:48 ERROR       ================= An error has caused Accelergy to crash. Error below =================
+2025-04-30 19:24:48 ERROR       Can not find an energy estimator for DRAM(type=HMC, width=64, datawidth=8, has_power_gating=False, n_banks=2, cluster_size=1, reduction_supported=True, multiple_buffering=1, min_utilization=0, allow_overbooking=False, meshX=1, meshY=1, version=0.4, technology=SET ME, global_cycle_seconds=1e-09, action_latency_cycles=1, cycle_seconds=1e-09, n_instances=1).leak(global_cycle_seconds=1e-09, action_latency_cycles=1)
+2025-04-30 19:24:48 ERROR       Logs for plug-ins that could estimate query:
+2025-04-30 19:24:48 ERROR       | 
+2025-04-30 19:24:48 ERROR       | Library with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Loaded 91 components from library.
+2025-04-30 19:24:48 ERROR       |  | Found 0 entries for dram.leak.
+2025-04-30 19:24:48 ERROR       |  | ValueError: Could not find leak for dram
+2025-04-30 19:24:48 ERROR       | DEPRECATED table-based-plug-ins. Use the Library plug-in instead. with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       | Neurosim Plug-In with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       |  | ERROR: NeuroSim estimator does not support dram. Supported primitives are: ['array_row_drivers', 'array_col_drivers', 'array_adc', 'memory_cell', 'shift_add', 'intadder', 'intadder_tree', 'max_pool', 'mux', 'flip_flop', 'not_gate', 'nand_gate', 'nor_gate']
+2025-04-30 19:24:48 ERROR       | Aladdin_table with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       |  | Primitive class DRAM is not supported. Supported classes are: ['regfile', 'SRAM', 'counter', 'comparator', 'crossbar', 'wire', 'FIFO', 'bitwise', 'intadder', 'intmultiplier', 'intmac', 'fpadder', 'fpmultiplier', 'fpmac', 'reg']
+2025-04-30 19:24:48 ERROR       | dummy with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       |  | Set attribute "technology" to -1 to use placeholder estimations (for testing).
+2025-04-30 19:24:48 ERROR       | ADC Plug-In with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       |  | ADC Plug-In does not support DRAM.leak. Supported classes: ['adc', 'pim_adc', 'sar_adc', 'array_adc', 'pim_array_adc', 'cim_array_adc', 'cim_adc'], supported actions: ['convert', 'drive', 'read', 'sample', 'leak', 'activate']
+2025-04-30 19:24:48 ERROR       | CactiCache with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       |  | Class name DRAM is not supported. Supported class names: ['cache']
+2025-04-30 19:24:48 ERROR       | CactiSRAM with accuracy 0% estimating accuracy:
+2025-04-30 19:24:48 ERROR       |  | Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       |  | Class name DRAM is not supported. Supported class names: ['SRAM', 'sram']
+2025-04-30 19:24:48 ERROR       | CactiDRAM with accuracy 80% estimating value: 
+2025-04-30 19:24:48 ERROR       |  | Unused arguments (datawidth, has_power_gating, n_banks, cluster_size, reduction_supported, multiple_buffering, min_utilization, allow_overbooking, meshX, meshY, version, technology, global_cycle_seconds, action_latency_cycles, cycle_seconds, n_instances) provided for ['DRAM', 'dram'].__init__. Arguments used: (type, width)
+2025-04-30 19:24:48 ERROR       |  | AssertionError: DRAM type HMC is not supported. Must be one of ['LPDDR4', 'LPDDR', 'DDR3', 'GDDR5', 'HBM2'].
+2025-04-30 19:24:48 ERROR       Why plug-ins did not estimate:
+2025-04-30 19:24:48 ERROR       | CactiDRAM with accuracy 80% estimating accuracy: No messages found.
+2025-04-30 19:24:48 ERROR       | Library with accuracy 0% estimating accuracy: ValueError: Could not find leak for dram
+2025-04-30 19:24:48 ERROR       | DEPRECATED table-based-plug-ins. Use the Library plug-in instead. with accuracy 0% estimating accuracy: Accuracy is 0%. Not supported.
+2025-04-30 19:24:48 ERROR       | Neurosim Plug-In with accuracy 0% estimating accuracy: ERROR: NeuroSim estimator does not support dram. Supported primitives are: ['array_row_drivers', 'array_col_drivers', 'array_adc', 'memory_cell', 'shift_add', 'intadder', 'intadder_tree', 'max_pool', 'mux', 'flip_flop', 'not_gate', 'nand_gate', 'nor_gate']
+2025-04-30 19:24:48 ERROR       | Aladdin_table with accuracy 0% estimating accuracy: Primitive class DRAM is not supported. Supported classes are: ['regfile', 'SRAM', 'counter', 'comparator', 'crossbar', 'wire', 'FIFO', 'bitwise', 'intadder', 'intmultiplier', 'intmac', 'fpadder', 'fpmultiplier', 'fpmac', 'reg']
+2025-04-30 19:24:48 ERROR       | dummy with accuracy 0% estimating accuracy: Set attribute "technology" to -1 to use placeholder estimations (for testing).
+2025-04-30 19:24:48 ERROR       | ADC Plug-In with accuracy 0% estimating accuracy: ADC Plug-In does not support DRAM.leak. Supported classes: ['adc', 'pim_adc', 'sar_adc', 'array_adc', 'pim_array_adc', 'cim_array_adc', 'cim_adc'], supported actions: ['convert', 'drive', 'read', 'sample', 'leak', 'activate']
+2025-04-30 19:24:48 ERROR       | CactiCache with accuracy 0% estimating accuracy: Class name DRAM is not supported. Supported class names: ['cache']
+2025-04-30 19:24:48 ERROR       | CactiSRAM with accuracy 0% estimating accuracy: Class name DRAM is not supported. Supported class names: ['SRAM', 'sram']
+2025-04-30 19:24:48 ERROR       | CactiDRAM with accuracy 80% estimating value: AssertionError: DRAM type HMC is not supported. Must be one of ['LPDDR4', 'LPDDR', 'DDR3', 'GDDR5', 'HBM2'].
+2025-04-30 19:24:48 ERROR       .
+2025-04-30 19:24:48 ERROR       .
+2025-04-30 19:24:48 ERROR       To see a list of available component models, run "<command you used> -h" and find the option to list Accelergy components. Alternatively, run accelergy verbose and check the log file.
